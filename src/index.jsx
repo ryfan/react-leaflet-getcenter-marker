@@ -1,8 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import App from './App'
+import * as serviceWorker from './serviceWorker'
+import 'antd/dist/antd.css'
+import 'leaflet/dist/leaflet.css'
+import 'font-awesome/css/font-awesome.min.css'
+import './assets/custom.css'
 
 ReactDOM.render(
   <React.StrictMode>
